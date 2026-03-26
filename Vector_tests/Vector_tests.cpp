@@ -20,7 +20,7 @@ namespace Vectortests
 
         TEST_CLASS_CLEANUP(WriteJsonReport)
         {
-            std::ofstream file("test_report.json");
+            std::ofstream file("C:\\Users\\User\\source\\repos\\NewRepo\\test_report.json");
             if (file.is_open()) {
                 file << std::setw(4) << allTestResults << std::endl;
                 file.close();

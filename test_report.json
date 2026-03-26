@@ -1,0 +1,51 @@
+[
+    {
+        "actual": 10.0,
+        "expected": 10.0,
+        "status": "PASSED",
+        "test_name": "TestGenerateVectorSize",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 7.0,
+        "expected": 7.0,
+        "status": "PASSED",
+        "test_name": "TestGroupSums",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 20.0,
+        "expected": 20.0,
+        "status": "PASSED",
+        "test_name": "TestMaxGroup",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 1.0,
+        "expected": 1.0,
+        "status": "PASSED",
+        "test_name": "TestRemoveDuplicates",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 0.0,
+        "expected": 0.0,
+        "status": "PASSED",
+        "test_name": "TestSortASC",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 0.0,
+        "expected": 0.0,
+        "status": "PASSED",
+        "test_name": "TestSortDESC",
+        "timestamp": "17:22:21"
+    },
+    {
+        "actual": 6.5,
+        "expected": 6.5,
+        "status": "PASSED",
+        "test_name": "TestSumVector",
+        "timestamp": "17:22:21"
+    }
+]
