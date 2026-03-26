@@ -3,16 +3,16 @@
 // Генерація простих дробових чисел
 vector<double> generateVector(int size) {
     vector<double> v(size);
-    for (int i = 0; i < size; i++) v[i] = (i * 37 % 100) / 10.0;
+    for (size_t i = 0; i < size; i++) v[i] = (i * 37 % 100) / 10.0;
     return v;
 }
 
 // Групування по n
 vector<double> groupSums(const vector<double>& v, int n) {
     vector<double> sums;
-    for (int i = 0; i < v.size(); i += n) {
+    for (size_t i = 0; i < v.size(); i += n) {
         double s = 0;
-        for (int j = 0; j < n && i + j < v.size(); j++) s += v[i + j];
+        for (size_t j = 0; j < n && i + j < v.size(); j++) s += v[i + j];
         sums.push_back(s);
     }
     return sums;
@@ -66,10 +66,10 @@ void sortDESC(vector<double>& v) {
 vector<double> maxGroup(const vector<double>& v, int n) {
     double maxSum = -1e9;
     vector<double> best;
-    for (int i = 0; i < v.size(); i += n) {
+    for (size_t i = 0; i < v.size(); i += n) {
         double s = 0;
         vector<double> temp;
-        for (int j = 0; j < n && i + j < v.size(); j++) {
+        for (size_t j = 0; j < n && i + j < v.size(); j++) {
             s += v[i + j];
             temp.push_back(v[i + j]);
         }
